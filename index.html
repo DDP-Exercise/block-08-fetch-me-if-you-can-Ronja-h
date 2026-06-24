@@ -2,10 +2,45 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Users and Posts</title>
+    <script type="module" src="./js/main.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+<main class="page">
+    <h1>Users</h1>
+</main>
+<section id="app"></section>
+<template id="user-template">
+    <article class="user-card">
+        <button class="user-header" type="button">
+            <span class="user-name"></span>
+            <span class="user-email"></span>
+        </button>
 
-<script src="main.js" type="module"></script>
+        <div class="posts-container"></div>
+    </article>
+</template>
+
+<template id="post-template">
+    <article class="post-card">
+        <h3 class="post-title"></h3>
+        <p class="post-body"></p>
+
+        <button class="load-comments-button" type="button">
+            load comments
+        </button>
+
+        <div class="comments-container"></div>
+    </article>
+</template>
+
+<template id="comment-template">
+    <article class="comment-card">
+        <span class="comment-name"></span>
+        <span class="comment-email"></span>
+        <p class="comment-body"></p>
+    </article>
+</template>
 </body>
 </html>

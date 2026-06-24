@@ -1,0 +1,51 @@
+.user-card {
+    margin-bottom: 12px;
+}
+.user-header {
+    font-size: 18px;
+    background-color: white;
+    color: deeppink;
+    border: 1px solid hotpink;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+h1{
+    color: hotpink;
+}
+h3{
+    color: deeppink;
+}
+.comment-card {
+    margin-top: 12px;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.comment-name {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.comment-email {
+    display: block;
+    font-size: 0.9rem;
+    color: hotpink;
+    margin-bottom: 8px;
+}
+
+.comment-body {
+    margin: 0;
+}
+.post-body{
+    margin-top: 12px;
+    padding: 12px;
+}
+.post-card{
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-top: 12px;
+    padding: 12px;
+}
